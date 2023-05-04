@@ -6,6 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "bulid id value is ${BUILD_ID}"
+                echo "bulid name value is ${BUILD_NAME}"
                 git 'https://github.com/learnasws16161616/maven.git'
             }
         }
