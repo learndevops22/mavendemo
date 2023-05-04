@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "java_node"
+        label "java_nod"
     }
     stages {
         stage('Checkout') {
